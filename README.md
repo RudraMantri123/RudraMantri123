@@ -28,9 +28,14 @@ sessions, below.
   ([pytorch#189690](https://github.com/pytorch/pytorch/issues/189690)). Version-bisected across
   torch 2.10–2.13.
 
-**[FinGround](https://github.com/RudraMantri123)** — faithfulness-first financial RAG over SEC
+**[FinGround](https://github.com/RudraMantri123/finground)** — faithfulness-first financial RAG over SEC
 filings: inline-citation grounding, abstention when the filings cannot support an answer, and an
 LLM-as-judge eval decomposing answers into atomic claims (Cohen's κ = 0.84 against human labels).
+
+**[ThirdChair](https://github.com/RudraMantri123/thirdchair)** — a real-time voice teammate for
+meetings: streaming speech-to-text → a streaming LLM → sentence-chunked text-to-speech, with
+barge-in, a wake phrase, and a fully local path (whisper.cpp + Ollama) when nothing may leave the
+machine.
 
 Earlier: reproduced published IR baselines end to end (MS MARCO BM25, BGE dense retrieval) and
 contributed verified reproduction logs to
